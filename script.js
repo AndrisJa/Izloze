@@ -11,6 +11,12 @@ let rand=Math.random()*vardi.length;  //vārdu skaits mainīgs
 rand=Math.floor(rand); //noapaļo uz leju
 let uzvaretajs=vardi[rand]; //console.log vietā
 
-}
+
 
 rindas.innerHTML+=` //pievieno +, lai pieskaitītu nākamo
+<tr>
+<td>${i+1}</td>
+<td>${uzvaretajs}</td>
+</tr>` //izvade vairākās rindās
+
+}
