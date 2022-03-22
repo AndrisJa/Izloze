@@ -1,0 +1,29 @@
+table, th, td {
+    border: 1px solid;
+    font-size:40px;
+    color:whitesmoke;
+   background-color: black;
+  }
+
+  thead{
+    font-weight:bold;
+    
+  }
+
+  .center{
+      margin-left:auto;
+      margin-right:auto;
+  }
+
+  tr:hover {background-color: gold;}
+
+  body{
+      background-image: url(https://www.gannett-cdn.com/-mm-/22119b0707f8be7dcb654d25a8f4066f358b4b60/c=0-28-2130-1231/local/-/media/2015/12/30/USATODAY/USATODAY/635870857431125528-lottery.jpg?width=2130&height=1203&fit=crop&format=pjpg&auto=webp);
+      background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-size:100% 100%;
+  }
+
+  header{
+      color:whitesmoke;
+  }
